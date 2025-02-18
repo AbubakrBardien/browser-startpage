@@ -46,6 +46,10 @@
             ico: <i class="fa-solid fa-tv"></i>
             lbl: DSTV Stream
             url: https://dstv.stream/#/
+          - !Link
+            ico: <i class="fa-solid fa-tv"></i>
+            lbl: Anime
+            url: https://hianime.to
     - categories:
       - name: Programming
         rows:
