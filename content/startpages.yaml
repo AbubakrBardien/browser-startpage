@@ -79,6 +79,10 @@
             ico: <i class="fa-solid fa-atom"></i>
             lbl: ProtonDB
             url: https://www.protondb.com/
+          - !Link
+            ico: <i class="fa-regular fa-image"></i>
+            lbl: Wallpaper Flare
+            url: https://www.wallpaperflare.com/
     - categories:
       - name: Social
         rows:
@@ -86,6 +90,16 @@
             ico: <i class="fa-brands fa-linkedin"></i>
             lbl: Linkedin
             url: https://www.linkedin.com
+      - name: Glyphs
+        rows:
+          - !Link
+            ico: <i class="fa-solid fa-font"></i>
+            lbl: Nerd Fonts
+            url: https://www.nerdfonts.com/cheat-sheet
+          - !Link
+            ico: <i class="fa-solid fa-font"></i>
+            lbl: Font Awesome
+            url: https://fontawesome.com/search
 - name: Temporary
   columns:
     - categories:
