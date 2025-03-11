@@ -11,10 +11,6 @@
             ico: <i class="fa-solid fa-robot"></i>
             lbl: Gemini
             url: https://gemini.google.com
-          - !Link
-            ico: <i class="fa-solid fa-robot"></i>
-            lbl: ChatGPT
-            url: https://chat.openai.com
       - name: News
         rows:
           - !Link
