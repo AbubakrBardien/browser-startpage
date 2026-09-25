@@ -86,6 +86,10 @@
             ico: <i class="fa-brands fa-linkedin"></i>
             lbl: Linkedin
             url: https://www.linkedin.com
+          - !Link
+            ico: <i class="fa-brands fa-discord"></i>
+            lbl: Discord
+            url: https://discord.com
       - name: Glyphs
         rows:
           - !Link
