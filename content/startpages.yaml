@@ -8,16 +8,13 @@
             lbl: Google
             url: https://www.google.com
           - !Link
-            ico: <i class="fa-solid fa-robot"></i>
+            ico: <i class="fa-brands fa-google"></i>
             lbl: Gemini
             url: https://gemini.google.com
-      - name: News
-        rows:
           - !Link
-            ico: <i class="fa-solid fa-newspaper"></i>
-            lbl: Ground News
-            url: https://ground.news
-    - categories:
+            ico: <i class="fa-solid fa-robot"></i>
+            lbl: Claude
+            url: https://claude.ai/new
       - name: Media
         rows:
           - !Link
@@ -28,24 +25,6 @@
             ico: <i class="fa-brands fa-reddit-alien"></i>
             lbl: Reddit
             url: https://www.reddit.com
-          - !Link
-            ico: <i class="fa-brands fa-twitch"></i>
-            lbl: Twitch
-            url: https://www.twitch.tv
-      - name: Entertainment
-        rows:
-          - !Link
-            ico: <i class="fa-solid fa-tv"></i>
-            lbl: Netflix
-            url: https://www.netflix.com/browse
-          - !Link
-            ico: <i class="fa-solid fa-tv"></i>
-            lbl: DSTV Stream
-            url: https://dstv.stream/#/
-          # - !Link
-          #   ico: <i class="fa-solid fa-tv"></i>
-          #   lbl: Anime
-          #   url: https://hianime.to
     - categories:
       - name: Programming
         rows:
@@ -61,16 +40,19 @@
             ico: <i class="fa-regular fa-keyboard"></i>
             lbl: MonkeyType
             url: https://monkeytype.com/
-          - !Link
-            ico: <i class="fa-solid fa-computer"></i>
-            lbl: PC Builder
-            url: https://www.wootware.co.za
-      - name: Linux
+      - name: Reference Manuals
         rows:
           - !Link
             ico: <i class="fa-solid fa-terminal"></i>
             lbl: Arch Wiki
             url: https://wiki.archlinux.org/title/Main_page
+          - !Link
+            ico: <i class="fa-solid fa-snowflake"></i>
+            lbl: NixOS Manual
+            url: https://nixos.org/learn/
+    - categories:
+      - name: Linux
+        rows:
           - !Link
             ico: <i class="fa-solid fa-atom"></i>
             lbl: ProtonDB
@@ -79,17 +61,6 @@
             ico: <i class="fa-regular fa-image"></i>
             lbl: Wallpaper Flare
             url: https://www.wallpaperflare.com/
-    - categories:
-      - name: Social
-        rows:
-          - !Link
-            ico: <i class="fa-brands fa-linkedin"></i>
-            lbl: Linkedin
-            url: https://www.linkedin.com
-          - !Link
-            ico: <i class="fa-brands fa-discord"></i>
-            lbl: Discord
-            url: https://discord.com
       - name: Glyphs
         rows:
           - !Link
@@ -100,6 +71,27 @@
             ico: <i class="fa-solid fa-font"></i>
             lbl: Font Awesome
             url: https://fontawesome.com/search
+    - categories:
+      - name: Stores
+        rows:
+          - !Link
+            ico: <i class="fa-solid fa-cart-shopping"></i>
+            lbl: Takealot
+            url: https://www.takealot.com/
+          - !Link
+            ico: <i class="fa-solid fa-computer"></i>
+            lbl: Wootware
+            url: https://www.wootware.co.za
+      - name: Finances
+        rows:
+          - !Link
+            ico: <i class="fa-solid fa-building-columns"></i>
+            lbl: Standard Bank
+            url: https://www.standardbank.com/
+          - !Link
+            ico: <i class="fa-solid fa-coins"></i>
+            lbl: Finance Spreadsheet
+            url: https://docs.google.com/spreadsheets/d/1G_X6CmDnlk9oDZtElkZZZmQ1oSxUUa-vJkQzcuftdIA/edit?gid=1762013682#gid=1762013682
 - name: Temporary
   columns:
     - categories:
